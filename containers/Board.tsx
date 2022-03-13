@@ -60,7 +60,7 @@ function Board(){
     <div >
        {!winner && <p>Hey {currentPlayer}, it's your turn</p>}
        {winner &&   winner !== 'Both' && <p>Congratulations {winner}</p>}
-        {winner && winner === 'Both'  && (<p>Congratulations you are both winners</p>)}
+        {winner && winner === 'Both'  && (<p>Congratulations you are both losers</p>)}
        
 
         <div className="grid">
